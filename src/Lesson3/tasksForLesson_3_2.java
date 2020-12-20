@@ -25,7 +25,7 @@ public class tasksForLesson_3_2 {
                 "grape", "melon", "leak", "kiwi", "mango", "mushroom", "nut", "olive", "pea", "peanut", "pear", "pepper",
                 "pineapple", "pumpkin", "potato"};
         Random rand = new Random();
-        int x = rand.nextInt(words.length - 1);
+        int x = rand.nextInt(words.length);
         String word = words[x];
         /*System.out.println("x: " + x);
         System.out.println("слово: " + word);*/
